@@ -1,0 +1,75 @@
+/* Write your CSS here */
+.transaction-item {
+  list-style: none;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 12px;
+}
+
+.balance {
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+}
+
+.income {
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+}
+
+.expenses {
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+}
+
+@media screen and (min-width: 768px) {
+  .transaction-item {
+    list-style: none;
+    border-radius: 12px;
+    width: 32%;
+    max-width: 300px;
+    margin-bottom: 12px;
+  }
+}
+
+.transaction-card {
+  padding: 14px;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .transaction-card {
+    padding: 14px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.transaction-image {
+  width: 60px;
+  margin-right: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .transaction-image {
+    width: 80px;
+    margin-right: 16px;
+  }
+}
+
+.transaction-name {
+  font-size: 16px;
+  font-family: Roboto;
+  color: #7e858e;
+  font-weight: 500;
+  margin-top: 0px;
+}
+
+.transaction-count {
+  font-size: 20px;
+  font-family: Roboto;
+  color: #7e858e;
+  font-weight: 500;
+  margin-bottom: 0px;
+}

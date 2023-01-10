@@ -1,0 +1,224 @@
+/* Write your CSS here */
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.money-manager {
+  width: 99%;
+  padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .money-manager {
+    width: 99%;
+    max-width: 1000px;
+    padding: 10px;
+  }
+}
+
+.section-one {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  text-align: center;
+  padding: 6px;
+}
+
+@media screen and (min-width: 768px) {
+  .section-one {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 12px;
+    text-align: left;
+    padding-left: 46px;
+  }
+}
+
+.greeting-name {
+  font-size: 24px;
+  color: #475569;
+  font-family: Roboto;
+  font-weight: 600;
+  margin-top: 22px;
+  margin-bottom: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .greeting-name {
+    font-size: 32px;
+    color: #475569;
+    font-family: Roboto;
+    font-weight: 600;
+    margin-top: 32px;
+    margin-bottom: 12px;
+  }
+}
+
+.welcome-msg {
+  font-size: 14px;
+  color: #475569;
+  font-family: Roboto;
+  font-weight: 500;
+  margin-top: 12px;
+  margin-bottom: 22px;
+}
+
+@media screen and (min-width: 768px) {
+  .welcome-msg {
+    font-size: 18px;
+    color: #475569;
+    font-family: Roboto;
+    font-weight: 500;
+    margin-top: 12px;
+    margin-bottom: 32px;
+  }
+}
+
+.highlighting {
+  color: #0b69ff;
+}
+
+.transaction-items-container {
+  padding: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .transaction-items-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .section-three {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.transaction-form {
+  width: 100%;
+  max-width: 300px;
+  border: 1px solid #7e858e;
+  border-radius: 12px;
+  padding: 12px;
+  margin-bottom: 12px;
+  margin-right: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .transaction-form {
+    width: 100%;
+    max-width: 350px;
+    border: 1px solid #7e858e;
+    border-radius: 12px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.form-heading {
+  font-size: 22px;
+  font-family: Roboto;
+  color: #1e293b;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+  font-family: Roboto;
+  font-size: 12px;
+  color: #334155;
+  font-weight: 600;
+  margin-top: 6px;
+}
+
+input {
+  height: 38px;
+  width: 90%;
+  border: 1px solid #7e858e;
+  border-radius: 6px;
+  margin-top: 6px;
+  padding: 8px;
+}
+
+select {
+  height: 38px;
+  width: 90%;
+  margin-top: 6px;
+  padding: 8px;
+  border: 1px solid #7e858e;
+  border-radius: 6px;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+}
+
+.add-button {
+  height: 38px;
+  width: 90px;
+  border: 0px;
+  border-radius: 6px;
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.transaction-index {
+  width: 100%;
+  max-width: 450px;
+  border: 1px solid #7e858e;
+  border-radius: 12px;
+  padding: 12px;
+  margin-bottom: 12px;
+}
+
+.transactions-heading {
+  font-size: 22px;
+  font-family: Roboto;
+  color: #1e293b;
+}
+
+.transaction-index-item {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border: 1px solid #7e858e;
+}
+
+.transaction-index-items-container {
+  padding: 0px;
+}
+
+.index-heading {
+  width: 30%;
+  max-width: 130px;
+  text-align: center;
+  font-size: 14px;
+  font-family: Roboto;
+  color: #1e293b;
+  font-weight: bold;
+}
