@@ -16,7 +16,9 @@ const MoneyDetails = props => {
           />
           <div>
             <p className="transaction-name">Your Balance</p>
-            <p className="transaction-count">Rs {balance}</p>
+            <p className="transaction-count" data-testid="balanceAmount">
+              Rs {balance}
+            </p>
           </div>
         </div>
       </li>
@@ -29,7 +31,9 @@ const MoneyDetails = props => {
           />
           <div>
             <p className="transaction-name">Your Income</p>
-            <p className="transaction-count">Rs {income}</p>
+            <p className="transaction-count" data-testid="incomeAmount">
+              Rs {income}
+            </p>
           </div>
         </div>
       </li>
@@ -42,7 +46,9 @@ const MoneyDetails = props => {
           />
           <div>
             <p className="transaction-name">Your Expenses</p>
-            <p className="transaction-count">Rs {expense}</p>
+            <p className="transaction-count" data-testid="expensesAmount">
+              Rs {expense}
+            </p>
           </div>
         </div>
       </li>

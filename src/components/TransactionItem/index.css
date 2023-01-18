@@ -1,1 +1,27 @@
 /* Write your CSS here */
+.transaction-index-item {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border: 1px solid #7e858e;
+}
+
+.index-heading {
+  width: 30%;
+  max-width: 130px;
+  text-align: center;
+  font-size: 14px;
+  font-family: Roboto;
+  color: #1e293b;
+  font-weight: bold;
+}
+
+.delete-button {
+  background-color: transparent;
+  border: 0px;
+}
+
+.delete-image {
+  width: 20px;
+}
