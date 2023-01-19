@@ -1,4 +1,5 @@
 // Write your code here
+
 import './index.css'
 
 const MoneyDetails = props => {
@@ -7,7 +8,7 @@ const MoneyDetails = props => {
 
   return (
     <>
-      <li className="transaction-item balance">
+      <div className="transaction-item balance">
         <div className="transaction-card">
           <img
             src="https://assets.ccbp.in/frontend/react-js/money-manager/balance-image.png"
@@ -21,8 +22,8 @@ const MoneyDetails = props => {
             </p>
           </div>
         </div>
-      </li>
-      <li className="transaction-item income">
+      </div>
+      <div className="transaction-item income">
         <div className="transaction-card">
           <img
             src="https://assets.ccbp.in/frontend/react-js/money-manager/income-image.png"
@@ -36,8 +37,8 @@ const MoneyDetails = props => {
             </p>
           </div>
         </div>
-      </li>
-      <li className="transaction-item expenses">
+      </div>
+      <div className="transaction-item expenses">
         <div className="transaction-card">
           <img
             src="https://assets.ccbp.in/frontend/react-js/money-manager/expenses-image.png"
@@ -51,7 +52,7 @@ const MoneyDetails = props => {
             </p>
           </div>
         </div>
-      </li>
+      </div>
     </>
   )
 }

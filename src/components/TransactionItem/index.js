@@ -12,7 +12,7 @@ const TransactionItem = props => {
   return (
     <li className="transaction-index-item">
       <p className="index-heading">{title}</p>
-      <p className="index-heading">{amount}</p>
+      <p className="index-heading">Rs {amount}</p>
       <p className="index-heading">{type}</p>
       <button
         type="button"

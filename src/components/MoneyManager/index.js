@@ -138,9 +138,9 @@ class MoneyManager extends Component {
             </p>
           </div>
           <div className="section-two">
-            <ul className="transaction-items-container">
+            <div className="transaction-items-container">
               <MoneyDetails moneyDetails={moneyDetails} />
-            </ul>
+            </div>
           </div>
           <div className="section-three">
             <form className="transaction-form" onSubmit={this.onAddTransaction}>

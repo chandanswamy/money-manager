@@ -1,6 +1,5 @@
 /* Write your CSS here */
 .transaction-item {
-  list-style: none;
   border-radius: 12px;
   width: 100%;
   max-width: 300px;
@@ -24,7 +23,6 @@
 
 @media screen and (min-width: 768px) {
   .transaction-item {
-    list-style: none;
     border-radius: 12px;
     width: 32%;
     max-width: 300px;
